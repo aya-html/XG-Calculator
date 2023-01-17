@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="script.js" defer>
+
+    </script>
+    <title>xG Calculator</title>
+  </head>
+  <body>
+      <form id="xg-form">
+        <label for="location_x">Location X:</label>
+        <input type="number" id="location_x" name="location_x">
+        <br>
+        <label for="location_y">Location Y:</label>
+        <input type="number" id="location_y" name="location_y">
+        <br>
+        <label for="body_part">Body Part:</label>
+        <select id="body_part" name="body_part">
+          <option value="head">Head</option>
+          <option value="foot">Foot</option>
+        </select>
+        <br>
+        <label for="assist_type">Assist Type:</label>
+        <input type="text" id="assist_type" name="assist_type">
+        <br>
+        <button type="submit">Calculate xG</button>
+      </form>
+      <div id="xg-result"></div>
+  </body>
+</html>
